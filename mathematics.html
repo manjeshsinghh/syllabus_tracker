@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics Progress Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mathematics Progress Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="physics.html">Physics</a></li>
+                <li><a href="mathematics12.html">Maths(12th)</a></li>
+            </ul>
+        </nav>
+
+        <!-- Mathematics Section -->
+        <div class="section" id="math-section">
+            <h2>Mathematics</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Progress</th>
+                        <th>YT lec</th>
+                        <th>CW CC</th>
+                        <th>CW DC</th>
+                        <th>NCERT</th>
+                        <th>EXEXPLAR</th>
+                        <th>ASSIGNMENT</th>
+                        <th>RS AGARWAL</th>
+                        <th>RD SHARMA</th>
+                        <th>TEST</th>
+                        <th>QUIZ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- List of Topics -->
+                    <tr>
+                        <td>Sets</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-sets">
+                                    <span class="progress-text" id="progress-text-math-sets">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sets" data-resource="QUIZ"></td>
+                    </tr>
+                    <tr>
+                        <td>Relations and Functions</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-relations">
+                                    <span class="progress-text" id="progress-text-math-relations">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-relations" data-resource="QUIZ"></td>
+                    </tr>
+                    <tr>
+                        <td>Trigonometric Functions</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-trigonometric">
+                                    <span class="progress-text" id="progress-text-math-trigonometric">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-trigonometric" data-resource="QUIZ"></td>
+                    </tr>
+                    <tr>
+                        <td>Principle of Mathematical Induction</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-induction">
+                                    <span class="progress-text" id="progress-text-math-induction">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-induction" data-resource="QUIZ"></td>
+                    </tr>
+                    <tr>
+                        <td>Complex Numbers and Quadratic Equations</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-complex">
+                                    <span class="progress-text" id="progress-text-math-complex">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-complex" data-resource="QUIZ"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Linear Inequalities</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-linear">
+                                    <span class="progress-text" id="progress-text-math-linear">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-linear" data-resource="QUIZ"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Permutation and Combinations</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-permutation">
+                                    <span class="progress-text" id="progress-text-math-permutation">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-permutation" data-resource="QUIZ"></td>
+                    </tr>
+                
+                    <tr>
+                        <td>Binomial Theorem</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-binomial">
+                                    <span class="progress-text" id="progress-text-math-binomial">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-binomial" data-resource="QUIZ"></td>
+                    </tr>
+                    <tr>
+                        <td>Sequence and Series</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-sequence">
+                                    <span class="progress-text" id="progress-text-math-sequence">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-sequence" data-resource="QUIZ"></td>
+                    </tr>
+                
+                   
+                    <tr>
+                        <td>Straight Lines</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-straight">
+                                    <span class="progress-text" id="progress-text-math-straight">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-straight" data-resource="QUIZ"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Conic Sections</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-conic">
+                                    <span class="progress-text" id="progress-text-math-conic">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-conic" data-resource="QUIZ"></td>
+                    </tr>
+                
+                    <tr>
+                        <td>Introduction to three dimensional geometry</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-three">
+                                    <span class="progress-text" id="progress-text-math-three">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-three" data-resource="QUIZ"></td>
+                    </tr>
+                
+                    <tr>
+                        <td> Mathematical Reasoning</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-reasoning">
+                                    <span class="progress-text" id="progress-text-math-reasoning">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-reasoning" data-resource="QUIZ"></td>
+                    </tr>
+
+                    <tr>
+                        <td> Statistics</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-statistics">
+                                    <span class="progress-text" id="progress-text-math-statistics">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-statistics" data-resource="QUIZ"></td>
+                    </tr>
+
+                    <tr>
+                        <td> Probability</td>
+                        <td>
+                            <div class="progress-bar">
+                                <div class="progress" id="progress-math-probability">
+                                    <span class="progress-text" id="progress-text-math-probability">0%</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="YT lec"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="CW CC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="CW DC"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="NCERT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="EXEXPLAR"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="ASSIGNMENT"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="RS AGARWAL"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="RD SHARMA"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="TEST"></td>
+                        <td><input type="checkbox" class="checkbox" data-section="math-probability" data-resource="QUIZ"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
+                    
